@@ -1,0 +1,159 @@
+2025-04-30 01:42:42,152 - INFO - Starting Flask App
+2025-04-30 01:42:42,176 - WARNING -  * Debugger is active!
+2025-04-30 01:42:42,183 - INFO -  * Debugger PIN: 431-150-196
+2025-04-30 01:42:54,949 - INFO -  * Detected change in 'C:\\Users\\hp\\Downloads\\Telegram Desktop\\DA5402_MLOPS lab\\AI app\\movie 2\\Movie Recommendation System\\frontend\\app.py', reloading
+2025-04-30 01:42:54,950 - INFO -  * Detected change in 'C:\\Users\\hp\\Downloads\\Telegram Desktop\\DA5402_MLOPS lab\\AI app\\movie 2\\Movie Recommendation System\\frontend\\app.py', reloading
+2025-04-30 01:42:54,950 - INFO -  * Detected change in 'C:\\Users\\hp\\Downloads\\Telegram Desktop\\DA5402_MLOPS lab\\AI app\\movie 2\\Movie Recommendation System\\frontend\\app.py', reloading
+2025-04-30 01:42:58,875 - INFO - Starting Flask App
+2025-04-30 01:42:58,889 - WARNING -  * Debugger is active!
+2025-04-30 01:42:58,896 - INFO -  * Debugger PIN: 431-150-196
+2025-04-30 01:42:58,993 - INFO - Rendering Home Page
+2025-04-30 01:42:59,004 - INFO - 127.0.0.1 - - [30/Apr/2025 01:42:59] "GET / HTTP/1.1" 200 -
+2025-04-30 01:42:59,145 - INFO - 127.0.0.1 - - [30/Apr/2025 01:42:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-30 01:43:05,075 - INFO - API Call: /recommendations/genres/The Dark Knight Rises
+2025-04-30 01:43:05,075 - INFO - Generating recommendations for 'The Dark Knight Rises' using Files/similarity_tags_genres.pkl
+2025-04-30 01:43:05,075 - INFO - Loading similarity matrix: Files/similarity_tags_genres.pkl
+2025-04-30 01:43:05,129 - INFO - Fetching poster for movie_id: 155
+2025-04-30 01:43:05,131 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+2025-04-30 01:43:05,131 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\shlex.py', reloading
+2025-04-30 01:43:08,601 - INFO - Starting Flask App
+2025-04-30 01:43:08,617 - WARNING -  * Debugger is active!
+2025-04-30 01:43:08,624 - INFO -  * Debugger PIN: 431-150-196
+2025-04-30 01:43:08,715 - INFO - API Call: /recommendations/genres/The Dark Knight Rises
+2025-04-30 01:43:08,715 - INFO - Generating recommendations for 'The Dark Knight Rises' using Files/similarity_tags_genres.pkl
+2025-04-30 01:43:08,715 - INFO - Loading similarity matrix: Files/similarity_tags_genres.pkl
+2025-04-30 01:43:08,764 - INFO - Fetching poster for movie_id: 155
+2025-04-30 01:43:09,020 - INFO - Fetching poster for movie_id: 9615
+2025-04-30 01:43:09,480 - INFO - Fetching poster for movie_id: 9882
+2025-04-30 01:43:09,936 - INFO - Fetching poster for movie_id: 136797
+2025-04-30 01:43:10,058 - WARNING - Failed to fetch poster for movie_id 136797: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 01:43:10,058 - INFO - Fetching poster for movie_id: 9509
+2025-04-30 01:43:10,459 - INFO - 127.0.0.1 - - [30/Apr/2025 01:43:10] "GET /recommendations/genres/The%20Dark%20Knight%20Rises HTTP/1.1" 200 -
+2025-04-30 01:43:15,354 - INFO - API Call: /recommendations/genres/The Dark Knight Rises
+2025-04-30 01:43:15,354 - INFO - Generating recommendations for 'The Dark Knight Rises' using Files/similarity_tags_genres.pkl
+2025-04-30 01:43:15,354 - INFO - Loading similarity matrix: Files/similarity_tags_genres.pkl
+2025-04-30 01:43:15,422 - INFO - Fetching poster for movie_id: 136797
+2025-04-30 01:43:15,897 - INFO - 127.0.0.1 - - [30/Apr/2025 01:43:15] "GET /recommendations/genres/The%20Dark%20Knight%20Rises HTTP/1.1" 200 -
+2025-04-30 02:36:02,001 - INFO - Starting Flask App
+2025-04-30 02:36:02,202 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-30 02:36:02,202 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-30 02:36:02,318 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-30 02:36:05,369 - INFO - Starting Flask App
+2025-04-30 02:36:05,383 - WARNING -  * Debugger is active!
+2025-04-30 02:36:05,396 - INFO -  * Debugger PIN: 431-150-196
+2025-04-30 02:36:34,529 - INFO - Rendering Home Page
+2025-04-30 02:36:34,609 - INFO - 127.0.0.1 - - [30/Apr/2025 02:36:34] "GET / HTTP/1.1" 200 -
+2025-04-30 02:36:34,610 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-04-30 02:36:34,763 - INFO - 127.0.0.1 - - [30/Apr/2025 02:36:34] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-30 02:36:34,975 - INFO - 127.0.0.1 - - [30/Apr/2025 02:36:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-30 02:36:35,965 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-30 02:36:38,548 - INFO - Starting Flask App
+2025-04-30 02:36:38,566 - WARNING -  * Debugger is active!
+2025-04-30 02:36:38,574 - INFO -  * Debugger PIN: 431-150-196
+2025-04-30 02:37:47,550 - INFO - Rendering Home Page
+2025-04-30 02:37:47,590 - INFO - 127.0.0.1 - - [30/Apr/2025 02:37:47] "GET / HTTP/1.1" 200 -
+2025-04-30 02:37:47,723 - INFO - 127.0.0.1 - - [30/Apr/2025 02:37:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-30 02:37:48,969 - INFO - Rendering Home Page
+2025-04-30 02:37:48,974 - INFO - 127.0.0.1 - - [30/Apr/2025 02:37:48] "GET / HTTP/1.1" 200 -
+2025-04-30 02:37:49,014 - INFO - 127.0.0.1 - - [30/Apr/2025 02:37:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-30 02:39:19,371 - INFO - Rendering Home Page
+2025-04-30 02:39:19,383 - INFO - 127.0.0.1 - - [30/Apr/2025 02:39:19] "GET / HTTP/1.1" 200 -
+2025-04-30 02:39:19,435 - INFO - 127.0.0.1 - - [30/Apr/2025 02:39:19] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-30 02:39:38,200 - INFO - API Call: /recommendations/tags/Spectre
+2025-04-30 02:39:38,200 - INFO - Generating recommendations for 'Spectre' using Files/similarity_tags_tags.pkl
+2025-04-30 02:39:38,200 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:39:38,484 - INFO - Fetching poster for movie_id: 10764
+2025-04-30 02:39:39,315 - INFO - Fetching poster for movie_id: 37724
+2025-04-30 02:39:40,233 - INFO - Fetching poster for movie_id: 36670
+2025-04-30 02:39:41,112 - INFO - Fetching poster for movie_id: 657
+2025-04-30 02:39:42,052 - INFO - Fetching poster for movie_id: 709
+2025-04-30 02:39:42,909 - INFO - 127.0.0.1 - - [30/Apr/2025 02:39:42] "GET /recommendations/tags/Spectre HTTP/1.1" 200 -
+2025-04-30 02:42:12,710 - INFO - Rendering Home Page
+2025-04-30 02:42:12,716 - INFO - 127.0.0.1 - - [30/Apr/2025 02:42:12] "GET / HTTP/1.1" 200 -
+2025-04-30 02:42:12,770 - INFO - 127.0.0.1 - - [30/Apr/2025 02:42:12] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-30 02:42:16,789 - INFO - API Call: /recommendations/tags/John Carter
+2025-04-30 02:42:16,794 - INFO - Generating recommendations for 'John Carter' using Files/similarity_tags_tags.pkl
+2025-04-30 02:42:16,794 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:42:16,895 - INFO - Fetching poster for movie_id: 11260
+2025-04-30 02:42:17,840 - INFO - Fetching poster for movie_id: 200
+2025-04-30 02:42:18,680 - INFO - Fetching poster for movie_id: 1091
+2025-04-30 02:42:19,266 - WARNING - Failed to fetch poster for movie_id 1091: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:42:19,266 - INFO - Fetching poster for movie_id: 8536
+2025-04-30 02:42:19,799 - WARNING - Failed to fetch poster for movie_id 8536: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:42:19,802 - INFO - Fetching poster for movie_id: 62
+2025-04-30 02:42:20,321 - WARNING - Failed to fetch poster for movie_id 62: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:42:20,321 - INFO - 127.0.0.1 - - [30/Apr/2025 02:42:20] "GET /recommendations/tags/John%20Carter HTTP/1.1" 200 -
+2025-04-30 02:42:23,992 - INFO - API Call: /recommendations/tags/John Carter
+2025-04-30 02:42:23,992 - INFO - Generating recommendations for 'John Carter' using Files/similarity_tags_tags.pkl
+2025-04-30 02:42:23,992 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:42:24,212 - INFO - Fetching poster for movie_id: 1091
+2025-04-30 02:42:24,890 - WARNING - Failed to fetch poster for movie_id 1091: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:42:24,892 - INFO - Fetching poster for movie_id: 8536
+2025-04-30 02:42:25,569 - WARNING - Failed to fetch poster for movie_id 8536: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:42:25,569 - INFO - Fetching poster for movie_id: 62
+2025-04-30 02:42:26,521 - INFO - 127.0.0.1 - - [30/Apr/2025 02:42:26] "GET /recommendations/tags/John%20Carter HTTP/1.1" 200 -
+2025-04-30 02:42:28,813 - INFO - API Call: /recommendations/tags/John Carter
+2025-04-30 02:42:28,813 - INFO - Generating recommendations for 'John Carter' using Files/similarity_tags_tags.pkl
+2025-04-30 02:42:28,813 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:42:28,901 - INFO - Fetching poster for movie_id: 1091
+2025-04-30 02:42:29,594 - WARNING - Failed to fetch poster for movie_id 1091: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:42:29,594 - INFO - Fetching poster for movie_id: 8536
+2025-04-30 02:42:30,218 - WARNING - Failed to fetch poster for movie_id 8536: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:42:30,220 - INFO - 127.0.0.1 - - [30/Apr/2025 02:42:30] "GET /recommendations/tags/John%20Carter HTTP/1.1" 200 -
+2025-04-30 02:42:49,205 - INFO - Rendering Home Page
+2025-04-30 02:42:49,214 - INFO - 127.0.0.1 - - [30/Apr/2025 02:42:49] "GET / HTTP/1.1" 200 -
+2025-04-30 02:42:49,266 - INFO - 127.0.0.1 - - [30/Apr/2025 02:42:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-30 02:42:53,916 - INFO - API Call: /recommendations/tags/John Carter
+2025-04-30 02:42:53,918 - INFO - Generating recommendations for 'John Carter' using Files/similarity_tags_tags.pkl
+2025-04-30 02:42:53,918 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:42:53,986 - INFO - Fetching poster for movie_id: 1091
+2025-04-30 02:42:54,822 - INFO - Fetching poster for movie_id: 8536
+2025-04-30 02:42:55,404 - WARNING - Failed to fetch poster for movie_id 8536: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:42:55,404 - INFO - 127.0.0.1 - - [30/Apr/2025 02:42:55] "GET /recommendations/tags/John%20Carter HTTP/1.1" 200 -
+2025-04-30 02:43:01,947 - INFO - API Call: /recommendations/tags/John Carter
+2025-04-30 02:43:01,947 - INFO - Generating recommendations for 'John Carter' using Files/similarity_tags_tags.pkl
+2025-04-30 02:43:01,947 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:43:02,056 - INFO - Fetching poster for movie_id: 8536
+2025-04-30 02:43:02,519 - WARNING - Failed to fetch poster for movie_id 8536: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:43:02,521 - INFO - 127.0.0.1 - - [30/Apr/2025 02:43:02] "GET /recommendations/tags/John%20Carter HTTP/1.1" 200 -
+2025-04-30 02:43:05,711 - INFO - API Call: /recommendations/tags/John Carter
+2025-04-30 02:43:05,711 - INFO - Generating recommendations for 'John Carter' using Files/similarity_tags_tags.pkl
+2025-04-30 02:43:05,711 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:43:05,804 - INFO - Fetching poster for movie_id: 8536
+2025-04-30 02:43:06,357 - WARNING - Failed to fetch poster for movie_id 8536: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:43:06,357 - INFO - 127.0.0.1 - - [30/Apr/2025 02:43:06] "GET /recommendations/tags/John%20Carter HTTP/1.1" 200 -
+2025-04-30 02:43:22,481 - INFO - API Call: /recommendations/tags/John Carter
+2025-04-30 02:43:22,481 - INFO - Generating recommendations for 'John Carter' using Files/similarity_tags_tags.pkl
+2025-04-30 02:43:22,481 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:43:22,561 - INFO - Fetching poster for movie_id: 8536
+2025-04-30 02:43:23,174 - WARNING - Failed to fetch poster for movie_id 8536: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:43:23,176 - INFO - 127.0.0.1 - - [30/Apr/2025 02:43:23] "GET /recommendations/tags/John%20Carter HTTP/1.1" 200 -
+2025-04-30 02:43:25,654 - INFO - API Call: /recommendations/tags/John Carter
+2025-04-30 02:43:25,654 - INFO - Generating recommendations for 'John Carter' using Files/similarity_tags_tags.pkl
+2025-04-30 02:43:25,654 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:43:25,729 - INFO - Fetching poster for movie_id: 8536
+2025-04-30 02:43:26,206 - WARNING - Failed to fetch poster for movie_id 8536: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:43:26,207 - INFO - 127.0.0.1 - - [30/Apr/2025 02:43:26] "GET /recommendations/tags/John%20Carter HTTP/1.1" 200 -
+2025-04-30 02:43:35,064 - INFO - API Call: /recommendations/tags/The Avengers
+2025-04-30 02:43:35,064 - INFO - Generating recommendations for 'The Avengers' using Files/similarity_tags_tags.pkl
+2025-04-30 02:43:35,064 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:43:35,151 - INFO - Fetching poster for movie_id: 99861
+2025-04-30 02:43:36,007 - INFO - Fetching poster for movie_id: 271110
+2025-04-30 02:43:36,490 - WARNING - Failed to fetch poster for movie_id 271110: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:43:36,491 - INFO - Fetching poster for movie_id: 10138
+2025-04-30 02:43:37,389 - INFO - Fetching poster for movie_id: 68721
+2025-04-30 02:43:38,210 - INFO - Fetching poster for movie_id: 1726
+2025-04-30 02:43:38,749 - WARNING - Failed to fetch poster for movie_id 1726: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-30 02:43:38,749 - INFO - 127.0.0.1 - - [30/Apr/2025 02:43:38] "GET /recommendations/tags/The%20Avengers HTTP/1.1" 200 -
+2025-04-30 02:43:40,725 - INFO - API Call: /recommendations/tags/The Avengers
+2025-04-30 02:43:40,725 - INFO - Generating recommendations for 'The Avengers' using Files/similarity_tags_tags.pkl
+2025-04-30 02:43:40,725 - INFO - Loading similarity matrix: Files/similarity_tags_tags.pkl
+2025-04-30 02:43:40,825 - INFO - Fetching poster for movie_id: 271110
+2025-04-30 02:43:41,501 - INFO - Fetching poster for movie_id: 1726
+2025-04-30 02:43:42,296 - INFO - 127.0.0.1 - - [30/Apr/2025 02:43:42] "GET /recommendations/tags/The%20Avengers HTTP/1.1" 200 -
+2025-04-30 02:46:38,397 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\datetime.py', reloading
+2025-04-30 02:46:38,803 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-30 02:46:41,609 - INFO - Starting Flask App
+2025-04-30 02:46:41,624 - WARNING -  * Debugger is active!
+2025-04-30 02:46:41,626 - INFO -  * Debugger PIN: 431-150-196
