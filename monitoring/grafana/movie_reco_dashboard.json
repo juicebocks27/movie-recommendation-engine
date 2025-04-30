@@ -35,7 +35,7 @@
             "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
-            "axisLabel": "Individual",
+            "axisLabel": "Percentage",
             "axisPlacement": "auto",
             "barAlignment": 0,
             "barWidthFactor": 0.6,
@@ -340,24 +340,7 @@
           },
           "unit": "none"
         },
-        "overrides": [
-          {
-            "matcher": {
-              "id": "byFrameRefID",
-              "options": "D"
-            },
-            "properties": [
-              {
-                "id": "custom.axisPlacement",
-                "value": "right"
-              },
-              {
-                "id": "custom.axisLabel",
-                "value": "Receive Speed"
-              }
-            ]
-          }
-        ]
+        "overrides": []
       },
       "gridPos": {
         "h": 11,
@@ -383,14 +366,27 @@
       "targets": [
         {
           "disableTextWrap": false,
-          "editorMode": "builder",
-          "expr": "rate(flask_http_request_total{method=\"GET\"}[1m])",
+          "editorMode": "code",
+          "expr": "rate(flask_http_request_total{status=\"200\"}[1m])",
           "fullMetaSearch": false,
           "includeNullMetadata": true,
-          "legendFormat": "{{method}}",
+          "legendFormat": "TMDB API Requests",
           "range": true,
           "refId": "A",
           "useBackend": false
+        },
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "cekf4rwgb71tsc"
+          },
+          "editorMode": "code",
+          "expr": "rate(flask_http_request_total{status=\"304\"}[1m])",
+          "hide": false,
+          "instant": false,
+          "legendFormat": "Visualisation API Requests",
+          "range": true,
+          "refId": "B"
         }
       ],
       "title": "Request Rate",
@@ -412,5 +408,5 @@
   "timezone": "browser",
   "title": "Movie_Rec",
   "uid": "deh75g29ukg00c",
-  "version": 10
+  "version": 12
 }

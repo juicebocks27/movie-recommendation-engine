@@ -1,0 +1,46 @@
+services:
+  flask_app:
+    build: ./app
+    ports:
+      - "5555:5555"
+    volumes:
+      - ./app/Files:/app/Files
+    networks:
+      - backend
+
+  airflow:
+    # image: apache/airflow:2.8.0
+    build: ./airflow
+    restart: always
+    environment:
+      _AIRFLOW_WWW_USER_PASSWORD: "airflow"
+      _AIRFLOW_WWW_USER_USERNAME: "airflow"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./app/Files:/opt/airflow/files
+    ports:
+      - "8080:8080"
+    command: standalone
+    networks:
+      - backend
+
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    networks:
+      - backend
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./monitoring/grafana:/var/lib/grafana
+    networks:
+      - backend
+
+networks:
+  backend:
