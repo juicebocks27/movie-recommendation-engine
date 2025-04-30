@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineMatch - Movie Recommendations</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="title">🎬 Movie Recommendation Engine</h1>
+      <p class="subtitle">Discover Your Next Favorite Movie</p>
+    </header>
+
+    <div class="search-card glassmorphism">
+      <div class="search-container">
+        <div class="input-group">
+          <input list="titleOptions" id="titleInput" placeholder="Search for a movie..." 
+                 class="search-input" autocomplete="off" />
+          <datalist id="titleOptions">
+            {% for title in movie_titles %}
+              <option value="{{ title }}">
+            {% endfor %}
+          </datalist>
+          <select id="methodSelect" class="method-select">
+            <option value="tags">🎭 By Tags</option>
+            <option value="genres">🎞️ By Genres</option>
+            <option value="cast">🌟 By Cast</option>
+          </select>
+        </div>
+        <button class="search-btn" onclick="getRecommendations()">
+          <span class="btn-text">Find Matches</span>
+          <div class="loader"></div>
+        </button>
+      </div>
+    </div>
+
+    <div id="results" class="recommendations-grid"></div>
+  </div>
+
+  <script>
+    // Existing JavaScript code with loading state
+    async function getRecommendations() {
+      const title = document.getElementById("titleInput").value;
+      const method = document.getElementById("methodSelect").value;
+      const resultsDiv = document.getElementById("results");
+      const btn = document.querySelector('.search-btn');
+      
+      btn.classList.add('loading');
+      resultsDiv.innerHTML = "";
+
+      try {
+        const encodedTitle = encodeURIComponent(title.trim());
+        const res = await fetch(`/recommendations/${method}/${encodedTitle}`);
+        const data = await res.json();
+
+        if (res.ok) {
+          resultsDiv.innerHTML = data.map(movie => `
+            <div class="movie-card">
+              <div class="movie-poster">
+                <img src="${movie.poster}" alt="${movie.title}" />
+                <div class="movie-overlay">
+                  <button class="details-btn">View Details</button>
+                </div>
+              </div>
+              <div class="movie-info">
+                <h3 class="movie-title">${movie.title}</h3>
+                <div class="movie-meta">
+                  <span class="rating">⭐ ${movie.rating || '8.2'}/10</span>
+                  <span class="genre">${movie.genres || 'Drama'}</span>
+                </div>
+              </div>
+            </div>
+          `).join('');
+        } else {
+          resultsDiv.innerHTML = `<p class="error-message">${data.detail || "Movie not found"}</p>`;
+        }
+      } catch (error) {
+        resultsDiv.innerHTML = `<p class="error-message">Error: ${error.message}</p>`;
+      } finally {
+        btn.classList.remove('loading');
+      }
+    }
+  </script>
+</body>
+</html>
